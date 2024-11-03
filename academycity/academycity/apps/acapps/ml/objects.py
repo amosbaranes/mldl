@@ -6,6 +6,7 @@ mpl.use('Agg')
  to_data_path_ is the place datasets are kept
  topic_id name of the chapter to store images
 """
+
 import numpy as np
 from ..ml.basic_ml_objects import BaseDataProcessing, BasePotentialAlgo
 from .objects_extensions.netanya_college import NDataProcessing
