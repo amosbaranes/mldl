@@ -1,0 +1,37 @@
+{% extends "core/advanced_tabs.html" %}
+{% load static i18n %}
+
+{% block add_style %}
+    <link rel='stylesheet' id='rich_text'  href="{% static 'css/academycity/other/ai.css' %}" media='all' />
+{% endblock add_style %}
+
+
+{% block add_script_head %}
+    <script src="{% static 'js/academycity/core/face-api.js' %}"></script>
+    <script src="{% static 'js/academycity/core/tfjs.js' %}"></script>
+<!--<script defer src="https://cdn.jsdelivr.net/npm/face-api.js"></script>-->
+
+
+{% endblock add_script_head %}
+
+
+{% block add_script %}
+<script>
+    console.log("faceapi")
+    console.log(faceapi)
+    console.log("faceapi")
+        const loadModels = async () => {
+            const modelUri = '/static/js/academycity/ml//models';
+
+            await Promise.all([
+                faceapi.nets.ssdMobilenetv1.loadFromUri(modelUri),
+                faceapi.nets.faceLandmark68Net.loadFromUri(modelUri),
+                faceapi.nets.faceRecognitionNet.loadFromUri(modelUri),
+                faceapi.nets.tinyFaceDetector.loadFromUri(modelUri),
+                faceapi.nets.ageGenderNet.loadFromUri(modelUri),
+                faceapi.nets.faceExpressionNet.loadFromUri(modelUri),
+            ])
+        }
+        loadModels();
+    </script>
+{% endblock add_script %}

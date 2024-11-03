@@ -1,0 +1,70 @@
+#instructors {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  margin-left:15px;
+  margin-top:15px;
+}
+
+table {
+    border: 0px solid #CCC;
+    border-collapse: collapse;
+}
+
+td, th {
+  border: none;
+  padding: 2px;
+}
+
+tr:hover {background-color: #e6eeff;}
+
+th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  color: Blue;
+  text-decoration: underline;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+<!--  height: 300px; /* Should be removed. Only for demonstration */-->
+}
+
+
+.left_setup {
+  width: 50%;
+}
+
+.right_setup {
+  width: 50%;
+}
+
+.left {
+  width: 15%;
+}
+
+.right {
+  width: 80%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+<!--  display: table;-->
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.pointer {cursor: pointer; text-decoration: underline;}

@@ -1,0 +1,30 @@
+.sidebarleft {
+    float: left;
+    width: 20%;
+}
+
+.sidebarright {
+    float: right;
+    width: 20%;
+}
+
+.sidebarleftboth {
+    float: left;
+    width: 15%;
+}
+
+.sidebarrightboth {
+    float: right;
+    width: 15%;
+}
+
+.contentsidebar {
+    float: left;
+    width: 80%;
+}
+
+
+.contentboth {
+    float: left;
+    width: 70%;
+}

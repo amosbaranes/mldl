@@ -1,0 +1,260 @@
+* { margin: 0;  padding: 0;  box-sizing: border-box;}
+@media screen and (max-width: 800px)
+{:root { --progress-bar-width: 150px; --progress-bar-height: 150px; --font-size: 1.3rem; }}
+@media screen and (max-width: 500px)
+{:root {--progress-bar-width: 120px; --progress-bar-height: 120px; --font-size: 1rem; }}
+
+.maintab button:hover {
+ background-color: #F0F8FF;
+ transition: 0.3s;
+ }
+ .maintab button.active {
+ background-color: #00FFFF;
+ }
+
+body {font-family: "Lato", sans-serif;}
+
+/* Style the tab */
+.tab_nav {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 100%;
+}
+
+.tab {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 100%;
+}
+
+/* Style the buttons inside the tab */
+.nav_button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 5px 6px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+button.active {
+  background-color: #ccc;
+}
+
+.tab_textarea {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: white;
+  width: 39%;
+  height: 100%;
+}
+.tab_setting {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 100%;
+}
+
+.editor {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: white;
+  width: 39%;
+  height: 100%;
+}
+.com_setting {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 100%;
+}
+.tab_nav {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+  width: 10%;
+  height: 100%;
+}
+.tab_nav_content {
+  float: left;
+  border: 1px solid #ccc;
+  background-color: white;
+  width: 90%;
+  height: 100%;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 5px 6px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+#.tabcontent {
+ # float: left;
+ # padding: 0px 12px;
+ # border: 1px solid #ccc;
+ # width: 100%;
+ # border-left: none;
+ # height: 100%;
+#}
+
+
+
+div.scrollmenu {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.scrollmenu a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
+}
+
+
+# table
+.basic {font-family: Arial, Helvetica, sans-serif;}
+.basic td, th {padding: 2px;}
+.basic th {padding-top: 3px;padding-bottom: 3px;text-align: center;
+  background-color:#2196F3; color: white;
+}
+.basic tr:hover {background-color: #ddd;}
+.basic tr:nth-child(even){background-color: #f2f2f2;}
+ #
+.data_entry {font-family: Arial, Helvetica, sans-serif;}
+.data_entry td, th {padding: 2px;}
+.data_entry th {padding-top: 3px;padding-bottom: 3px;text-align: center;
+  background-color:#39ac73; color: black;
+ }
+.data_entry tr:hover {background-color: #8cd9b3}
+.data_entry tr:nth-child(even){background-color: #ecf9f2}
+ #
+.payment {font-family: Arial, Helvetica, sans-serif;}
+.payment td, th {padding: 2px;}
+.payment th {padding-top: 3px;padding-bottom: 3px;text-align: center;
+  background-color:red; color: white;
+}
+.payment tr:hover {background-color: #ddd;}
+.payment tr:nth-child(even){background-color: #f2f2f2;}
+ #
+.soldier {font-family: Arial, Helvetica, sans-serif;}
+.soldier td, th {padding: 2px;}
+.soldier th {padding-top: 3px;padding-bottom: 3px;text-align: center;
+  background-color:#A9A9A9; color: white;
+}
+.soldier tr:hover {background-color: #ddd;}
+.soldier tr:nth-child(even){background-color: #f2f2f2;}
+
+# ----
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+# ----
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+//---

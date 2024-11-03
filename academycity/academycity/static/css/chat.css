@@ -1,0 +1,21 @@
+
+.pencil {
+  cursor: crosshair;
+<!--  cursor: url({% static "main/pencil.png" %}) 5 5, pointer;-->
+}
+
+.button {
+  border: 1px solid red;
+  color: white;
+  padding: 2px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.button3 {border-radius: 30%;}
+.button5 {border-radius: 50%;}

@@ -1,0 +1,105 @@
+{% load static i18n %}
+{% load core_tags %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>{{title}}</title>
+    <link rel='stylesheet' id='ac-advanced-tabs'  href="{% static 'css/academycity/core/ac_advanced_tabs_v8.css' %}" media='all' />
+<!--  RichText  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel='stylesheet' id='rich_text'  href="{% static 'css/academycity/other/rich_text.css' %}" media='all' />
+<!--  End RichText  -->
+
+{% block add_style %}
+
+{% endblock add_style %}
+
+{% block add_script_head %}
+
+{% endblock add_script_head %}
+
+
+</head>
+<body id="body_">
+
+{% block add_script %}
+
+{% endblock add_script %}
+
+<script src="{% static 'js/academycity/core/AT_v202.js' %}"></script>
+
+<script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'js/npm/cookie/js.cookie.min.js' %}"></script>
+<script src="//cdn.rawgit.com/rainabba/jquery-table2excel/1.1.0/dist/jquery.table2excel.min.js"></script>
+
+<script src="{% static 'vendor/fontawesome-free-5.11.2-web/a076d05399.js' %}"></script>
+
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/luxon@1.26.0"></script>
+
+{% if app == "training" %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+{% else %}
+<script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.1/dist/chart.js"></script>
+{% endif %}
+
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>-->
+<!--<script src="https://cdn.jsdelivr.net/npm/chart.js@3.0.1/dist/chart.js"></script>-->
+
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-luxon@1.0.0"></script>
+
+<script src="{% static 'js/chartjs/chartjs-chart-financial.js'  %}" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="{% static 'js/chartjs/style.css' %}">
+<link rel="icon" href="{% static 'images/favicon.ico'  %}"/>
+
+<script>
+var csrftoken = Cookies.get('csrftoken');
+function csrfSafeMethod(method) {
+// these HTTP methods do not require CSRF protection
+return (/^(GET|HEAD|OPTIONS|TRACE)$/.test(method));
+}
+$.ajaxSetup({
+beforeSend: function(xhr, settings) {
+  if (!csrfSafeMethod(settings.type) && !this.crossDomain) {
+    xhr.setRequestHeader("X-CSRFToken", csrftoken);
+  }
+}
+});
+var dic={
+"my_name":"{{atm_name}}",
+"my_app":"{{app}}",
+"logmein_link":'{{logmein_link}}',
+"delete_record_from_table_link":'{% url "core:delete_record_from_table" %}',
+"activate_function_link":'{% url "core:activate_function" %}',
+"company_obj_id":{{company_obj_id}},
+"body_":document.getElementById("body_"),
+"update_field_link":'{% url "core:update_field_model_by_id" %}',
+"activate_obj_function_link":'{{app_activate_function_link}}',
+"upload_file_link":'{% url "core:upload_file" %}',
+"get_data_link":'{% url "core:get_data_link" %}',
+"general_data":'{% url "core:general_data" %}',
+"get_data_json_link":'{% url "core:get_data_json_link" %}',
+"is_show_btns":{%if request.user|has_group:"admins"%}true{% else %}false{%endif%},
+"default_battalion":"{{ default_battalion }}",
+"default_entity":"{{ default_entity }}",
+"entity_name":"{{ entity_name }}",
+"user_id":"{{ user_id }}"
+}
+
+$(document).ready(function(){
+ var {{atm_name}}=new AdvancedTabsManager();
+ //atm = {{atm_name}}
+ atm = {{atm_name}}.create_atm(dic)
+{% block domready %}
+{% endblock %}
+});
+</script>
+</body>
+</html>

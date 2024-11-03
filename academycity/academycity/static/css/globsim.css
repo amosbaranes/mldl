@@ -1,0 +1,81 @@
+#product, #randd {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+#product td, #product th, #randd td,#randd th{
+  border: 1px solid #ddd;
+  padding: 2px;
+}
+
+#product tr:nth-child(even){background-color: #ccddff;}
+#product tr:hover {background-color: #e6eeff;}
+
+#randd tr:nth-child(even){background-color: #ccddff;}
+#randd tr:hover {background-color: #e6eeff;}
+
+#product th, #randd th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color: #4d88ff;
+  color: white;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 10px;
+<!--  height: 300px; /* Should be removed. Only for demonstration */-->
+}
+
+
+.left_setup {
+  width: 50%;
+}
+
+.right_setup {
+  width: 50%;
+}
+
+.left {
+  width: 20%;
+}
+
+.right {
+  width: 80%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+<!--  display: table;-->
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+.pointer {cursor: pointer; text-decoration: underline;}
+
+table {
+    border: 1px solid #CCC;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: none;
+    padding: 5px;
+}
+
+th {text-align: center}

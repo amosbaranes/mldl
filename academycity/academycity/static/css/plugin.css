@@ -1,0 +1,62 @@
+#plugin table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+
+#plugin table.fsa {
+  width: 100%;
+}
+#plugin table.fsahv {
+  width: 100%;
+}
+
+#plugin table.fsahvtd.main {
+  width: 50%;
+}
+#plugin td.main {
+  width: 60%;
+}
+
+#plugin td.side {
+  text-align: right
+}
+
+#plugin th{text-align: center}
+
+#plugin td, #plugin th{
+  border: 1px solid #ddd;
+  padding: 2px;
+}
+
+#plugin tr:nth-child(even){background-color: #ccddff;}
+#plugint tr:hover {background-color: #e6eeff;}
+
+#plugin th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #4d88ff;
+  color: white;
+}
+
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  padding: 1px;
+}
+
+.left {
+  width: 35%;
+}
+
+.middle {
+  width: 33%;
+}
+
+.right {
+  width: 33%;
+}
+
+.whole {
+  width: 100%;
+}
