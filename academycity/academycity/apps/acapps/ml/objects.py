@@ -12,6 +12,7 @@ from ..ml.basic_ml_objects import BaseDataProcessing, BasePotentialAlgo
 from .objects_extensions.netanya_college import NDataProcessing
 
 # --- APPO ----
+from .objects_extensions.sport import Sport
 from .objects_extensions.A_1_ppo import A1PPODataProcessing
 #
 from .objects_extensions.rpo import RPODataProcessing
