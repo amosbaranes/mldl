@@ -11,9 +11,13 @@ import numpy as np
 from ..ml.basic_ml_objects import BaseDataProcessing, BasePotentialAlgo
 from .objects_extensions.netanya_college import NDataProcessing
 
+# --- APPO ----
+from .objects_extensions.A_1_ppo import A1PPODataProcessing
 #
 from .objects_extensions.rpo import RPODataProcessing
 from .objects_extensions.ttdqn import TDQNDataProcessing
+# from .objects_extensions.rl_dnq_ch6 import DQNDataProcessing
+#
 from .objects_extensions.netanya_college import NDataProcessing
 from .objects_extensions.rl_dnq_cnn import DNQCNNDataProcessing
 from .objects_extensions.rl_dnq import DNQDataProcessing

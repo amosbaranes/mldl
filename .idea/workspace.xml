@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="60e9c86a-c878-465f-8213-34bf6da9cb38" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mldl.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mldl.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/basic_ml_objects.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/cup_handle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/mlnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/netanya_college.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/nn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/predict_shocks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/reinforcement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/reinforcement_finance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/rl_dnq.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/rl_dnq_cnn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/rnn_sp500.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/rpo.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/rrl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/rrl_bu.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/rrl_cnn_sltm.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/simple_nn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/ttdqn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/potential.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/templates/ml/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/AdvancedTabes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/apps_general_functions.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/commands/createusers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/commands/decorators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/decorators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/email.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/fields.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0002_auto_20191017_2123.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0003_debug.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0004_dataadvancedtabs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0005_auto_20220213_0956.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0006_dataadvancedtabs_tab_title.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0007_dataadvancedtabs_tab_content.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0008_auto_20220304_0753.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0009_auto_20220304_0800.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0010_auto_20220314_0957.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0011_dataadvancedtabscustomization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0012_auto_20220616_1948.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0013_auto_20220620_2138.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0014_auto_20220808_1515.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0015_dataadvancedapps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0016_auto_20220925_1508.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0017_auto_20230209_0546.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0018_generaldata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/0019_auto_20230327_2047.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/objects.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/sql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/templates/core/advanced_tabs.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/templates/core/any_chart.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/templates/core/home.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/templatetags/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/templatetags/core_tags.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/core/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/academycity/academycity/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/academycity/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2oXE9Q105GVn6ddpmWRWKY5KOrM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/amos/projects/mldl",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d7ad00fb9fc3-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23726.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="60e9c86a-c878-465f-8213-34bf6da9cb38" name="Changes" comment="" />
+      <created>1731007367510</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731007367510</updated>
+    </task>
+    <servers />
+  </component>
+</project>
