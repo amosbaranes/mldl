@@ -11,6 +11,9 @@ import numpy as np
 from ..ml.basic_ml_objects import BaseDataProcessing, BasePotentialAlgo
 from .objects_extensions.netanya_college import NDataProcessing
 
+
+# --- CV ----
+from .objects_extensions.cv import CVDataProcessing
 # --- APPO ----
 from .objects_extensions.sport import Sport
 from .objects_extensions.A_1_ppo import A1PPODataProcessing

@@ -55,3 +55,5 @@ opencv-python
 roboflow
 supervision
 #
+mediapipe
+#
