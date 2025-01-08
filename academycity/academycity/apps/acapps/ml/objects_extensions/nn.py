@@ -15,8 +15,6 @@ from sklearn.preprocessing import MinMaxScaler
 from ..basic_ml_objects import BaseDataProcessing, BasePotentialAlgo
 from ....core.utils import log_debug, clear_log_debug
 #
-from ....core.utils import log_debug, clear_log_debug
-#
 import wbdata
 #
 

@@ -53,7 +53,7 @@ class Sport(BaseDataProcessing, BasePotentialAlgo, SportAlgo):
         return result
 
     def test(self, dic):
-        print("90155-dqn: \n", "="*50, "\n", dic, "\n", "="*50)
+        print("90155-Sort test: \n", "="*50, "\n", dic, "\n", "="*50)
         episodes = int(dic["episodes"])
         # ---
 

@@ -7,15 +7,20 @@
     <list default="true" id="60e9c86a-c878-465f-8213-34bf6da9cb38" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/templates/ml/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/templates/ml/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/nn.py" beforeDir="false" afterPath="$PROJECT_DIR$/academycity/academycity/apps/acapps/ml/objects_extensions/nn.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/academycity/academycity/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/academycity/academycity/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/academycity/academycity/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/academycity/academycity/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/academycity/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/academycity/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -30,16 +35,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.cv.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/amos/projects/mldl/academycity/academycity/media/ml/video",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.cv.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/amos/projects/mldl/academycity/academycity/media/ml/video&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/academycity/academycity/media/ml/video" />

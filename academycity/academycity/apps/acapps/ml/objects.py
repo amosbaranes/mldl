@@ -11,7 +11,8 @@ import numpy as np
 from ..ml.basic_ml_objects import BaseDataProcessing, BasePotentialAlgo
 from .objects_extensions.netanya_college import NDataProcessing
 
-
+# --- Transformer ---
+from .objects_extensions.transformer import TransformerDataProcessing
 # --- CV ----
 from .objects_extensions.cv import CVDataProcessing
 # --- APPO ----
